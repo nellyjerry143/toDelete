@@ -1,0 +1,40 @@
+
+body{
+    
+}
+:root{
+    box-sizing: border-box;
+}
+
+.nav{
+   background-color: blueviolet;
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav-items{
+    justify-content: space-between;
+    margin-left: 40px;
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-items nav{
+    margin-left: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+#email{
+    margin-bottom: 20px;
+}
