@@ -4,19 +4,154 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning Platform</title>
-    <link rel="stylesheet" href="file://wsl.localhost/Ubuntu-22.04/home/jerry/james/toDelete/style.css">
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div class="nav">
-      <img src="log.png" alt="Logo">
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="log.png" alt="Logo" />
+      </div>
       <div class="nav-items">
-        <nav>Home</nav>
-        <nav>About Us</nav>
-        <nav>Services</nav>
-        <nav><a href="file://wsl.localhost/Ubuntu-22.04/home/jerry/james/toDelete/register.html">Register</a></nav>
-        <nav>Contact</nav>
+        <nav class="nav active"><a href="#">Home</a></nav>
+        <nav><a href="#">About Us</a></nav>
+        <nav><a href="#">Services</a></nav>
+
+        <nav>
+          <a href="/register.html">Register</a>
+        </nav>
+        <nav><a href="#">Contact</a></nav>
+      </div>
+      <div class="search"><input type="text" placeholder="Search.." /></div>
+    </div>
+    <div class="row">
+      <div class="col"><img src="image-1000x1000.jpg" alt="" /></div>
+      <div class="col">
+        <h1 class="news-h1">Fundamentals of ICT</h1>
+        <p>
+          ICT is also used to refer to the convergence of audiovisuals and
+          telephone networks with computer networks through a single cabling or
+          link system. There are large economic incentives to merge the
+          telephone networks with the computer network system using a single
+          unified system of cabling, signal distribution, and management. ICT is
+          an umbrella term that includes any communication device, encompassing
+          radio, television, cell phones, computer and network hardware,
+          satellite systems and so on, as well as the various services and
+          appliances with them such as video conferencing and distance learning.
+          ICT also includes analog technology, such as paper communication, and
+          any mode that transmits communication. ICT is a broad subject and the
+          concepts are evolving. It covers any product that will store,
+          retrieve, manipulate, process, transmit, or receive information
+          electronically in a digital form (e.g., personal computers including
+          smartphones, digital television, email, or robots). Skills Framework
+          for the Information Age is one of many models for describing and
+          managing competencies for ICT professionals in the 21st century.
+        </p>
       </div>
     </div>
-    
+    <br />
+    <div class="portfolio">
+      <div class="card">
+        <h2>Your Technology Warehouse</h2>
+        <hr />
+        <p>Vurnel is your place of technology advancement</p>
+        <p>
+          We Warehouse innovated Apps for advancement of business operations
+        </p>
+      </div>
+      <div class="card">
+        <h2>Software Development</h2>
+        <hr />
+        <p>
+          We develop various software applications to solve real life problems
+        </p>
+        <p>
+          Mobile apps empower Nigerian businesses to be accessible to their
+          customers 24/7. Their customers can conveniently browse products,
+          access services, or make inquiries at any time, fostering brand
+          loyalty and significantly improving the overall customer experience
+        </p>
+      </div>
+      <div class="card">
+        <h2>Digital Marketing</h2>
+        <hr />
+        <p>Take your business to a global maket place</p>
+        <p>
+          Marketing has always been about utilising tools to connect with your
+          audience at the right place and time. While traditional marketing
+          methods are still relevant in our modern age, the sheer amount of time
+          we spend and rely on the internet has meant that digital marketing has
+          boomed.
+        </p>
+      </div>
+    </div>
+    <div class="box-office">
+      <div class="left-sidebar">
+        <div class="shortcuts">
+          <h3>Shortcuts</h3>
+          <dl>Brands</dl>
+          <dl>Genres</dl>
+          <dl>Franchises</dl>
+        </div>
+      </div>
+      <div class="middle-bar">
+        <table class="movie">
+          <tr>
+            <th>Latest Dailies</th>
+            <th>
+              <select name="date" id="date">
+                <label for="date">Sun Jun 16</label>
+                <option value="1">Thur Jun 13</option>
+                <option value="2">Fri June 14</option>
+              </select>
+            </th>
+          </tr>
+          <tr>
+            <th>Inside Out 2</th>
+            <th>N2,500.00</th>
+          </tr>
+          <tr>
+            <th>Bad boys: Ride or Die</th>
+            <th>N4,500.00</th>
+          </tr>
+          <tr>
+            <th>The Garfield Movie</th>
+            <th>N7,000.00</th>
+          </tr>
+          <tr>
+            <th>The Kingdom of the Planet of the Apes</th>
+            <th>N6,000.00</th>
+          </tr>
+          <tr>
+            <th>The Passion of Christ</th>
+            <th>N10,000.00</th>
+          </tr>
+        </table>
+      </div>
+      <div class="right-sidebar">
+        <h3>Latest Weekend: Jun 14-16</h3>
+        <table class="movie">
+          <tr>
+            <th>Inside Out 2</th>
+            <th>N1,800.00</th>
+          </tr>
+          <tr>
+            <th>Bad boys: Ride or Die</th>
+            <th>N4,500.00</th>
+          </tr>
+          <tr>
+            <th>The Garfield Movie</th>
+            <th>N7,000.00</th>
+          </tr>
+          <tr>
+            <th>The Kingdom of the Planet of the Apes</th>
+            <th>N6,000.00</th>
+          </tr>
+          <tr>
+            <th>The Passion of Christ</th>
+            <th>N10,000.00</th>
+          </tr>
+        </table>
+      </div>
+    </div>
   </body>
 </html>
